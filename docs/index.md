@@ -4,7 +4,7 @@ hero:
   description: 可能是国内同步最快的Packagist镜像站
   actions:
     - text: 立即使用
-      link: /
+      link: /guide
     - text: 服务状态
       link: /
 features:
