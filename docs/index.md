@@ -2,11 +2,7 @@
 hero:
   title: Packagist
   description: 可能是国内同步最快的Packagist镜像站
-  actions:
-    - text: 立即使用
-      link: /guide
-    - text: 服务状态
-      link: /
+
 features:
   - title: 更快的同步速度
     emoji: 💎
@@ -18,3 +14,17 @@ features:
     emoji: 🚀
     description: 全量同步所有文件，保证Composer里的所有文件均可以通过镜像站下载
 ---
+
+## 方法
+
+### 全局生效
+
+```bash
+composer config -g repo.packagist composer https://repo.packagist.cloud
+```
+
+### 项目生效
+
+```bash
+composer config repo.packagist composer https://repo.packagist.cloud
+```
